@@ -1,13 +1,13 @@
-// App.js
 import React from 'react';
-import HoroscopeApp from './components/HoroscopeApp';
+import Horoscope from './components/HoroscopeApp';
+import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <HoroscopeApp />
-    </div>
-  );
+    return (
+        <div className="app-container">
+            <Horoscope />
+        </div>
+    );
 }
 
 export default App;
